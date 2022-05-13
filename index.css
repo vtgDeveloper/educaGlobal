@@ -1,7 +1,19 @@
+body{
+    margin: 0;
+}
+
 .nav-edu{
     margin: 0;
     width: 100%;
     background-color: aquamarine;
-    padding: 45px;
+}
+
+
+.nav-edu__about{
+    border-radius: 30%;
+    background-color: cadetblue;
+    padding: 20px;
+    margin-left: 50px;
+
 }
 
