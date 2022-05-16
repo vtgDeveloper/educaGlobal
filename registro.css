@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    
+}
+
+.nav-edu{
+    display: flex;
+    margin: 0;
+    width: auto;
+    justify-content: center;
+    background-color: rgb(120, 180, 180);
+    padding: 15px;
+    box-shadow: 0px 2px rgb(223, 221, 221);
+}
+
+.nav-edu > .text-animated{
+    margin-top: 10px;
+
+}
+.nav-edu > .text-animated > span{
+    display: block;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: nowrap;
+    width: 11ch;
+    border-right: 4px solid;
+    animation: typing 2s steps(11), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    color: rgb(8, 39, 214);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+@keyframes typing {
+    from{
+        width: 0px;
+    }
+}
+
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+}
+
+
+form{
+    margin: auto;
+    background-color: lightgreen;
+    width: 65%;
+    height: 45%;
+    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+form > .form_create{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+.form_create > input{
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    border-width: 0px;
+    width: 250px;
+    position: relative;
+}
+
+.form_create > input::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.form_create > input:focus{
+   position: static;
+   font-size: 15px;
+}
+
+.check{
+    display: flex;
+    flex-direction: column;
+   
+}
+.check > label{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.check > label > input{
+    transform: scale(1.5); 
+
+}
+
+
+.suscription{
+    position: absolute;
+    left: 60%;
+}
+
+.suscription > p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+}

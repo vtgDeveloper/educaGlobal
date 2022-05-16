@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create account</title>
+    <link rel="stylesheet" href="registro.css">
 </head>
 <body>
     
@@ -16,6 +17,29 @@
         </nav>
     </header>
 
+
+    <main>
+        <p class="text">CREATE ACCOUNT</p>
+        <form>
+            <div class="form_create">
+                <input type="email" name="email" placeholder="Email">
+                <input type="text" name="username" placeholder="Username">
+                <input type="password" name="password" placeholder="Password">
+                <input type="password" name="password2" placeholder="Confirm password">
+            </div>
+
+            <div class="check">
+                <label><input type="checkbox" id="terms" value="Terms">I've checked <a href="">Terms and Conditions</a></label>
+                <label><input type="checkbox" id="privacy" value="Privacy">I've checked <a href="">Privacy Policies</a></label>
+            </div>
+
+            <div class="suscription">
+                <p>Choose suscription</p>
+                <label><input type="checkbox" id="month" value="Month"><a href="">Monthly suscription</a></label>
+                
+            </div>
+        </form>
+    </main>
 
 
 </body>

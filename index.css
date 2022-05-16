@@ -99,6 +99,7 @@ form p{
     border-radius: 5px;
     border-width: 0px;
     width: auto;
+
 }
 
 .form_input > input::placeholder{
@@ -106,6 +107,12 @@ form p{
     font-weight: bold;
     font-size: 20px;
 }
+.form_input > input:focus{
+    font-size: 15px;
+}
+
+
+
 
 .form_input > #log_in{
     width: 45%;
