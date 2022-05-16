@@ -17,7 +17,7 @@ body{
     margin-top: 10px;
 
 }
-.nav-edu > .text-animated > span{
+.nav-edu > .text-animated > a{
     display: block;
     margin: auto;
     font-family: 'Courier New', Courier, monospace;
@@ -29,6 +29,7 @@ body{
     color: rgb(8, 39, 214);
     font-size: 30px;
     font-weight: bold;
+    text-decoration: none;
 
 }
 
@@ -186,6 +187,11 @@ footer > div > a{
 
 }
 
+
+footer > .social_media > a{
+   margin: 10px;
+   font-size: 30px;
+}
 
 
 

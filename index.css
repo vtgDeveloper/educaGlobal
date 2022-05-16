@@ -76,6 +76,7 @@ form{
     width: 28%;
     height: 30%;
     margin-top: 70px;
+    margin-bottom: 80px;
     padding: 30px;
     border-radius: 5px;
     
@@ -138,5 +139,31 @@ form p{
 }
 
 
+footer{
+    width: auto;
+    background-color:  rgb(29, 95, 216);
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > div > p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+footer > div > a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
 
 
+footer > .social_media > a{
+   margin: 10px;
+   font-size: 30px;
+}
